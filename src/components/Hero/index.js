@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from '../UI/Card'
 import Logo from '../Logo'
+import Navbar from '../Navbar'
 
 /**
 * @author
@@ -13,7 +14,8 @@ const Hero = (props) => {
         <Card>
           <div style={{ padding: '50px 0'}}>
             <Logo />
-            </div>
+          </div>
+          <Navbar /> 
         </Card>
     </div>
    )
