@@ -24,7 +24,26 @@
     padding: 0 10px;
 }
 
-.search {
+.search form {
     display: flex;
     margin: 0 10px;
+}
+
+.searchInput {
+    border: 0;
+    width: 0;
+    transition: width 0.2s ease-in;
+}
+
+.searchInput.active {
+    width: 200px;
+    border-bottom: 1px solid #565673;
+}
+
+.searchInput:focus {
+    outline: none;
+}
+
+.searchIcon {
+    cursor: pointer;
 }
