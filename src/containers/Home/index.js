@@ -1,11 +1,11 @@
 import React from 'react';
 import './style.css';
-import Hero from '../../components/Hero';
+// import Hero from '../../components/Hero';
 
 const Home = props => {
     return(
         <div>
-            <Hero />
+            {/* <Hero /> */}
         </div>
     )
 }
