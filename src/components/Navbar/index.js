@@ -12,7 +12,6 @@ const Navbar = (props) => {
 
   const submitSearch = (e) => {
     e.preventDefault();
-    alert("search");
   }
 
   const openSearch = () => {
