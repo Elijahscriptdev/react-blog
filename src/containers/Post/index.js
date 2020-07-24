@@ -1,5 +1,7 @@
 import React from 'react';
 import './style.css';
+import BlogPost from '../../components/BlogPost';
+import Sidebar from '../../components/Sidebar';
 
 /**
 * @author
@@ -8,7 +10,10 @@ import './style.css';
 
 const Post = (props) => {
   return(
-    <div>Post</div>
+    <section className="container">
+      <BlogPost />
+      <Sidebar />
+    </section>
    )
 
  }
