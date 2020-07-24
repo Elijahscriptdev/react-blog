@@ -11,6 +11,9 @@ const Card = (props) => {
     <div className="card" {...props}>
         { props.children }
     </div>
+    // <div className="card" style={props.style}>
+    //     { props.children }
+    // </div>
    )
 
  }
