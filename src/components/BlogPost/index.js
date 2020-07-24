@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import Card from '../UI/Card';
 
 /**
 * @author
@@ -8,7 +9,9 @@ import './style.css';
 
 const BlogPost = (props) => {
   return(
-    <div className="blogPost">Post</div>
+    <Card style={{width:'70%'}}>
+        My first Blog Post
+    </Card>
    )
 
  }
