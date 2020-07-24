@@ -5,7 +5,7 @@ import './style.css';
 const Home = props => {
     return(
         <div>
-            {/* <Hero /> */}
+            Home
         </div>
     )
 }
