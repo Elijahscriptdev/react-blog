@@ -1,23 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .sideBarContainer {
     width: 27%;
 }
 
-.sideHeader{
+.cardHeader{
     text-align: center;
     display: block;
     font-size: 15px;
     color: #565673;
     text-transform: uppercase;
-    padding: 10px 10px;
+    padding: 5px 10px;
     letter-spacing: 3px;
     box-sizing: border-box;
 }
 
-.sideHeader img{
+.cardHeader img{
     max-width: 100%;
-    max-height: 85%;
 }
 
 .network img {
     margin-top: 10px;
+}
+
+.cardBody {
+    padding: 0 10px;
+}
+
+.cardBody p{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.cardBody p strong{
+    font-weight: 400;
+}
+
+.socialNetworks ul{
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+}
+
+.socialNetworks .social-list a{
+    margin: 0 5px;
+    color: #565673;
 }
