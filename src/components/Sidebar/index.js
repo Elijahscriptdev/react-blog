@@ -46,14 +46,21 @@ const Sidebar = (props) => {
       </Card>
       <Card >
         <div className="cardHeader network">
-          <span className="cardTitle">About-Us</span>
-          <img alt="Elijah" src="http://res.cloudinary.com/elijjaaahhhh/image/upload/v1595706025/elijah_rhm0qv.jpg" />
+          <span className="cardTitle">Recent Posts</span>
         </div>
-        <div className="cardBody">
-          <p>
-          I am passionate about Full-Stack Development with experience in developing Web applications
-          <strong>(Ruby on Rails and Javascript(React))</strong>.
-          </p>
+        <div className="recentPosts">
+          <div className="recentPost">
+            <h4>Post Title</h4>
+            <span className="">July 21, 2018</span>
+          </div>
+          <div className="recentPost">
+            <h4>Post Title</h4>
+            <span className="">July 21, 2018</span>
+          </div>
+          <div className="recentPost">
+            <h4>Post Title</h4>
+            <span className="">July 21, 2018</span>
+          </div>
         </div>
       </Card>
     </div>

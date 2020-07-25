@@ -27,7 +27,7 @@
 }
 
 .cardBody {
-    padding: 0 10px;
+    padding: 0 10px 10px 10px;
 }
 
 .cardBody p{
@@ -48,4 +48,31 @@
 .socialNetworks .social-list a{
     margin: 0 5px;
     color: #565673;
+}
+
+.socialNetworks .social-list a:hover{
+    color: #333;
+    font-weight: bold;
+}
+
+.recentPosts {
+    padding: 20px;
+}
+
+.recentPost {
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+}
+
+.recentPost h4{
+    font-weight: 500;
+    color: #3c3c3c;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.recentPost span{
+    font-size: 12px;
+    font-weight: 400;
+    color: #6c6c6c;
 }
