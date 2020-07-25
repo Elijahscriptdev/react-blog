@@ -9,9 +9,54 @@ import './style.css';
 
 const Sidebar = (props) => {
   return(
-    <Card style={{width:'27%'}}>
-        Sidebar
-    </Card>
+    <div className="sideBarContainer">
+      <Card style={{ marginBottom:"20px" }}>
+        <div className="cardHeader network">
+          <span className="cardTitle">About-Us</span>
+          <img alt="Elijah" src="http://res.cloudinary.com/elijjaaahhhh/image/upload/v1595706025/elijah_rhm0qv.jpg" />
+        </div>
+        <div className="cardBody">
+          <p>
+          I am passionate about Full-Stack Development with experience in developing Web applications
+          <strong>(Ruby on Rails and Javascript(React))</strong>.
+          </p>
+        </div>
+      </Card>
+      <Card style={{ marginBottom:"20px" }}>
+        <div className="cardHeader network">
+          <span className="cardTitle">Social Networks</span>
+        </div>
+        <div className="socialNetworks">
+          <ul>
+              <li className="social-list">
+                  <a href="https://github.com/Elijahscriptdev" className="social-list"><i className="fab fa-github"></i></a>
+              </li>
+              <li className="social-list">
+                  <a href="https://twitter.com/ElijahObominuru" className="social-list"><i className="fab fa-twitter-square"></i></a>
+              </li>
+              <li className="social-list">
+                  <a href="https://www.linkedin.com/in/elijah-obominuru-0b730b143/" className="social-list"><i className="fab fa-linkedin-in"></i></a>
+              </li>
+              <li className="social-list">
+                  <a href="https://www.instagram.com/elijjaaahhhh/" className="social-list"><i className="fab fa-instagram"></i></a>
+              </li>
+          </ul>
+          {/* <img alt="Elijah" src={require("../../containers/blogPostImages/nysc1.jpg")} /> */}
+          </div>  
+      </Card>
+      <Card >
+        <div className="cardHeader network">
+          <span className="cardTitle">About-Us</span>
+          <img alt="Elijah" src="http://res.cloudinary.com/elijjaaahhhh/image/upload/v1595706025/elijah_rhm0qv.jpg" />
+        </div>
+        <div className="cardBody">
+          <p>
+          I am passionate about Full-Stack Development with experience in developing Web applications
+          <strong>(Ruby on Rails and Javascript(React))</strong>.
+          </p>
+        </div>
+      </Card>
+    </div>
    )
 
  }
