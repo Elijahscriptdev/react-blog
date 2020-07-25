@@ -1,0 +1,23 @@
+.sideBarContainer {
+    width: 27%;
+}
+
+.sideHeader{
+    text-align: center;
+    display: block;
+    font-size: 15px;
+    color: #565673;
+    text-transform: uppercase;
+    padding: 10px 10px;
+    letter-spacing: 3px;
+    box-sizing: border-box;
+}
+
+.sideHeader img{
+    max-width: 100%;
+    max-height: 85%;
+}
+
+.network img {
+    margin-top: 10px;
+}

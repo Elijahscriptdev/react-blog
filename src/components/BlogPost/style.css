@@ -31,3 +31,13 @@
     color: #565673;
     padding: 10px 0;
 }
+
+.postImageContainer {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+}
+
+.postImageContainer img{
+    max-width: 100%;
+}
