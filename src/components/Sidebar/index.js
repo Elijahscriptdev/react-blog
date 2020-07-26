@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import Card from '../UI/Card';
 import './style.css';
+import blogPost from '../../containers/data/blog.json'
+import { NavLink } from 'react-router-dom';
 
 /**
 * @author
@@ -8,6 +10,14 @@ import './style.css';
 **/
 
 const Sidebar = (props) => {
+
+  const [posts, setPosts] = useState([]);
+
+  useEffect(() => {
+    const post = blogPost.data
+    setPosts(post)
+  },posts);
+
   return(
     <div className="sideBarContainer">
       <Card style={{ marginBottom:"20px" }}>
@@ -17,7 +27,7 @@ const Sidebar = (props) => {
         </div>
         <div className="cardBody">
           <p>
-          I am passionate about Full-Stack Development with experience in developing Web applications
+          I am passionate about <strong>Full-Stack Development</strong> with experience in developing Web applications
           <strong>(Ruby on Rails and Javascript(React))</strong>.
           </p>
         </div>
@@ -49,18 +59,20 @@ const Sidebar = (props) => {
           <span className="cardTitle">Recent Posts</span>
         </div>
         <div className="recentPosts">
-          <div className="recentPost">
-            <h4>Post Title</h4>
-            <span className="">July 21, 2018</span>
-          </div>
-          <div className="recentPost">
-            <h4>Post Title</h4>
-            <span className="">July 21, 2018</span>
-          </div>
-          <div className="recentPost">
-            <h4>Post Title</h4>
-            <span className="">July 21, 2018</span>
-          </div>
+
+          {
+            posts.map(post => {
+              return(
+                <NavLink to='/${post.id}'>
+                  <div className="recentPost">
+                  <h4>{post.blogTitle}</h4>
+                  <span className="">{post.postedOn}</span>
+                </div>
+                </NavLink>
+              )
+            })
+          }
+          
         </div>
       </Card>
     </div>
