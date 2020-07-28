@@ -17,7 +17,7 @@ const Sidebar = (props) => {
   useEffect(() => {
     const post = blogPost.data
     setPosts(post)
-  },posts);
+  },[posts]);
 
   return(
     <div className="sideBarContainer">
@@ -51,7 +51,7 @@ const Sidebar = (props) => {
           {
             posts.map(post => {
               return(
-                <NavLink to={`/post/${post.id}`}>
+                <NavLink key={post.id} to={`/post/${post.id}`}>
                   <div className="recentPost">
                   <h4>{post.blogTitle}</h4>
                   <span className="">{post.postedOn}</span>
