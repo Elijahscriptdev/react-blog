@@ -41,3 +41,19 @@
 .postImageContainer img{
     max-width: 100%;
 }
+
+.blogContent {
+    padding: 10px;
+}
+
+.blogContent h3{
+    text-align: center;
+    color: #565673;
+    font-weight: 500;
+    margin: 10px 0;
+}
+
+.blogContent p{
+    color: #333;
+    font-weight: 300;
+}
