@@ -50,10 +50,11 @@
     text-align: center;
     color: #565673;
     font-weight: 500;
-    margin: 10px 0;
+    margin: 10px auto;
 }
 
 .blogContent p{
     color: #333;
-    font-weight: 300;
+    font-weight: 400;
+    font-size: 15px;
 }

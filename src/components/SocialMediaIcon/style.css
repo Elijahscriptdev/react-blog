@@ -1,0 +1,15 @@
+.social-list{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
+.social-list .social-list-item {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.social-list .social-list-item a{
+    margin: 0 10px;
+    color: #565673;
+}

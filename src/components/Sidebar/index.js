@@ -3,6 +3,7 @@ import Card from '../UI/Card';
 import './style.css';
 import blogPost from '../../containers/data/blog.json'
 import { NavLink } from 'react-router-dom';
+import SocialMediaIcon from '../SocialMediaIcon';
 
 /**
 * @author
@@ -37,20 +38,7 @@ const Sidebar = (props) => {
           <span className="cardTitle">Social Networks</span>
         </div>
         <div className="socialNetworks">
-          <ul>
-              <li className="social-list">
-                  <a href="https://github.com/Elijahscriptdev" className="social-list"><i className="fab fa-github"></i></a>
-              </li>
-              <li className="social-list">
-                  <a href="https://twitter.com/ElijahObominuru" className="social-list"><i className="fab fa-twitter-square"></i></a>
-              </li>
-              <li className="social-list">
-                  <a href="https://www.linkedin.com/in/elijah-obominuru-0b730b143/" className="social-list"><i className="fab fa-linkedin-in"></i></a>
-              </li>
-              <li className="social-list">
-                  <a href="https://www.instagram.com/elijjaaahhhh/" className="social-list"><i className="fab fa-instagram"></i></a>
-              </li>
-          </ul>
+        <SocialMediaIcon style={{ color:"red" }} />
           {/* <img alt="Elijah" src={require("../../blogPostImages/nysc1.jpg")} /> */}
           </div>  
       </Card>
