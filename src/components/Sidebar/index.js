@@ -51,7 +51,7 @@ const Sidebar = (props) => {
                   <a href="https://www.instagram.com/elijjaaahhhh/" className="social-list"><i className="fab fa-instagram"></i></a>
               </li>
           </ul>
-          {/* <img alt="Elijah" src={require("../../containers/blogPostImages/nysc1.jpg")} /> */}
+          {/* <img alt="Elijah" src={require("../../blogPostImages/nysc1.jpg")} /> */}
           </div>  
       </Card>
       <Card >
@@ -63,7 +63,7 @@ const Sidebar = (props) => {
           {
             posts.map(post => {
               return(
-                <NavLink to='/${post.id}'>
+                <NavLink to={`/post/${post.id}`}>
                   <div className="recentPost">
                   <h4>{post.blogTitle}</h4>
                   <span className="">{post.postedOn}</span>
