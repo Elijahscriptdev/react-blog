@@ -49,3 +49,12 @@
     object-fit: cover;
     max-height: 450px;
 }
+
+/* button {
+    padding: 6px;
+    border-radius: 50px;
+}
+
+button:focus{
+    border: none;
+} */

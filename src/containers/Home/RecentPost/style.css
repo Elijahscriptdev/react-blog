@@ -1,0 +1,24 @@
+.HomeContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.postImageWrapper{
+    overflow: hidden;
+}
+
+.postImageWrapper img{
+    width: 100%;
+    object-fit: cover;
+    max-height: 450px;
+}
+
+/* button {
+    padding: 6px;
+    border-radius: 50px;
+}
+
+button:focus{
+    border: none;
+} */
