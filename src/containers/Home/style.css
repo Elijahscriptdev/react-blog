@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.galleryPost {
+    display: flex;
+    justify-content: space-between;
+}
+
+.imageWrapper {
+    overflow: hidden;
+    object-fit: cover;
+    max-height: 450px;
+}
+
+.imageWrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sideImageWrapper{
+    overflow: hidden;
+    object-fit: cover;
+    max-height: 450px;
+}
+
+.sideImageWrapper img{
+    width: 100%;
+    object-fit: cover;
+    height: 150px;
+    margin-bottom: -5px;
+}
+
+.HomeContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+.postImageWrapper{
+    overflow: hidden;
+}
+
+.postImageWrapper img{
+    width: 100%;
+    object-fit: cover;
+    max-height: 450px;
+}
