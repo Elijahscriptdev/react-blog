@@ -12,9 +12,9 @@ const Header = (props) => {
     <div>
         <header className="header">
             <nav className="headerMenu">
-                <a href="#">Home</a>
+                {/* <a href="#">Home</a>
                 <a href="#">About</a>
-                <a href="#">Contact Us</a>
+                <a href="#">Contact Us</a> */}
             </nav>
             <SocialMediaIcon />
         </header>
