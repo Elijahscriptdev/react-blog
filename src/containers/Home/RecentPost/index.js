@@ -1,6 +1,7 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react';
 import './style.css';
 import Card from '../../../components/UI/Card';
+import blogPost from '../../data/blog.json'
 
 /**
 * @author
@@ -8,11 +9,31 @@ import Card from '../../../components/UI/Card';
 **/
 
 const RecentPost = (props) => {
+
+
+    const [post, setPost] = useState({
+    id: "" ,
+    blogCategory: "" ,
+    blogTitle : "" ,
+    postedOn: "" ,
+    author: "" ,
+    blogImage: "" ,
+    blogText: ""
+  });
+
+  useEffect(() => {
+    const post = blogPost.data
+    setPost(post)
+  },[post]);
+
+  if(post.blogImage == "") return null;
+
   return(
     <div style={{width:"70%"}}>
                     <Card style={{marginBottom:"20px"}}>
                         <div className="postImageWrapper">
-                            <img src="https://res.cloudinary.com/elijjaaahhhh/image/upload/v1584497692/hermes-rivera-qbf59TU077Q-unsplash_mc7lec.jpg"/>
+                            {/* <p>{post[0].blogTitle}</p> */}
+                            <img src={require('../../../blogPostImages/' + post[0].blogImage)} alt="jjj"/>
                         </div>
 
                         <div style={{textAlign:"center"}}>
