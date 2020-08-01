@@ -1,5 +1,5 @@
 .blogPostContainer{
-    width: 70%;
+    width: 100%;
 }
 
 .blogHeader{
@@ -57,4 +57,12 @@
     color: #333;
     font-weight: 400;
     font-size: 15px;
+}
+
+@media screen and (max-width:900px){
+    .blogPostContainer{
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
 }
