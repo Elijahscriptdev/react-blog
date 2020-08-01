@@ -14,11 +14,19 @@
     max-height: 450px;
 }
 
-/* button {
+.recent{
+    padding: 50px;
+}
+
+button {
     padding: 6px;
     border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    background: #333;
+    color: #fff;
 }
 
 button:focus{
     border: none;
-} */
+}
