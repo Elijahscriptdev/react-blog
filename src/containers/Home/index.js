@@ -42,7 +42,7 @@ const Home = props => {
                     <div className="imageWrapper" style={{ width:'70%' }}>
                     <div className="blogs">
                         <span className="Category">{post[1].blogCategory}</span>
-                        <NavLink to="/post/2" className="Nav_link" >
+                        <NavLink to="/post/1" className="Nav_link" >
                         <h1 className="post">{post[1].blogTitle}</h1>
                         </NavLink>
                         
@@ -53,7 +53,7 @@ const Home = props => {
                         <div className="blog-wrapper">
                             <div className="blogs">
                                 <span className="Category">{post[4].blogCategory}</span>
-                                <NavLink to="/post/2" className="Nav_link" >
+                                <NavLink to="/post/4" className="Nav_link" >
                                 <h1 className="post">{post[4].blogTitle}</h1>
                                 </NavLink>
                             </div>
@@ -71,7 +71,7 @@ const Home = props => {
                         <div className="blog-wrapper">
                             <div className="blogs">
                                 <span className="blog">{post[3].blogCategory}</span>
-                                <NavLink to="/post/2" className="Nav_link" >
+                                <NavLink to="/post/3" className="Nav_link" >
                                 <h1 className="post">{post[3].blogTitle}</h1>
                                 </NavLink>
                             </div>
