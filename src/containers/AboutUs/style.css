@@ -1,0 +1,26 @@
+.about-content {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #565673;
+}
+
+.about-content h1{
+    font-size: 3rem;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #333;
+}
+
+.about-content img{
+    width: 50%;
+    margin: 20px auto;
+    /* align-self: center; */
+}
+
+@media screen and (max-width:900px){
+    .about-content {
+        padding: 50px;
+    }
+}
