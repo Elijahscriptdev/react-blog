@@ -119,4 +119,14 @@ button:focus{
         grid-template-columns: 1fr 1fr 1fr;
         width: 100%!important;
     }
+
+    /* .HomeContainer {
+        display: block;
+        margin: 20px 0;
+    } */
+
+    .recent-post {
+        /* width: 100%!important; */
+        display: none;
+    }
 }

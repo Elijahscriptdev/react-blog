@@ -30,7 +30,7 @@ const RecentPost = (props) => {
   if(post.blogImage == "") return null;
 
   return(
-    <div style={{width:"70%"}}>
+    <div className="full" style={{width:"70%"}}>
                     <Card style={{marginBottom:"20px"}}>
                         <div className="postImageWrapper">
                             {/* <p>{post[0].blogTitle}</p> */}

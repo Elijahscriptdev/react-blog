@@ -30,3 +30,14 @@ button {
 button:focus{
     border: none;
 }
+
+@media screen and (max-width:900px){
+    .full {
+        width: 100%!important;
+    }
+
+    .HomeContainer {
+        display: block;
+        margin: 20px 0;
+    }
+}
