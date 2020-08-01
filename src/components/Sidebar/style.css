@@ -76,3 +76,18 @@
     font-weight: 400;
     color: #6c6c6c;
 }
+
+@media screen and (max-width:900px){
+    .sideBarContainer {
+        width: 100%!important;
+    }
+
+    .HomeContainer {
+        display: block;
+        margin: 20px 0;
+    }
+
+    .recentPosts {
+        text-align: center;
+    }
+}
